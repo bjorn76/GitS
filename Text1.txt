@@ -3,220 +3,16 @@ Björn@HP-SLIM MINGW32 ~
 $ pwd
 /c/Users/Björn
 
-/c/Users/Björn
-
-Björn@HP-SLIM MINGW32 ~
-$ cd /
-
-Björn@HP-SLIM MINGW32 /
-$ pwd
-/
-
-
-Björn@HP-SLIM MINGW32 /
-$ ls
-bin/  dev/  git-bash.exe*  mingw32/  ReleaseNotes.html  unins000.dat   usr/
-cmd/  etc/  git-cmd.exe*   proc/     tmp/               unins000.exe*
-
-Björn@HP-SLIM MINGW32 /
-$ cd /c
-
-Björn@HP-SLIM MINGW32 /c
-$ pwd
-/c
-
-Björn@HP-SLIM MINGW32 /c
-$ ls
-$AVG/
-$HPW7UA$/
-$Recycle.Bin/
-aaw7boot.log
-AdobeDebug.txt
-Apps/
-autoexec.bat
-Bart_PE_Boot.GHO
-blocks/
-BMM/
-Boot/
-bootmgr
-BOOTSECT.BAK
-config.sys
-Documents and Settings@
-DriveKey/
-FACTORY_IMAGE (D) - Shortcut.lnk*
-FileList.txt
-FINIS_IT.TXT
-GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}/
-hcwclear.txt
-hp/
-i386/
-inetpub/
-Intel/
-IO.SYS
-MSDOS.SYS
-MSOCache/
-My Video/
-MyVideos/
-OneDriveTemp/
-pagefile.sys
-pebuilder3110a/
-PerfLogs/
-PortableApps/
-Program@
-Program Files/
-ProgramData/
-Recovery/
-System Volume Information/
-updatedatfix.log
-Users/
-vcredist_x86.log
-videodvdmaker/
-VTS_02 - Stream Information.txt
-Windows/
-Windows Sidebar
-
-Björn@HP-SLIM MINGW32 /c
-$ cd users
-
-Björn@HP-SLIM MINGW32 /c/users
-$ ls
-22/            Björn/                 desktop.ini  Public/
-Admin/         Classic .NET AppPool/  Guest/       PublicRead/
-All Users@     Default/               iTunes/      UpdatusUser/
-ASP.NET v4.0/  Default User@          Lilly/
-Bj             Default.IIS APPPOOL/   Linda/
-Bj”rn/         DefaultAppPool/        Noah/
-
-Björn@HP-SLIM MINGW32 /c/users
-$ cd github
-bash: cd: github: No such file or directory
-
-Björn@HP-SLIM MINGW32 /c/users
-$ ls
-22/            Björn/                 desktop.ini  Public/
-Admin/         Classic .NET AppPool/  Guest/       PublicRead/
-All Users@     Default/               iTunes/      UpdatusUser/
-ASP.NET v4.0/  Default User@          Lilly/
-Bj             Default.IIS APPPOOL/   Linda/
-Bj”rn/         DefaultAppPool/        Noah/
-
-Björn@HP-SLIM MINGW32 /c/users
-$ cd Björn
-
-Björn@HP-SLIM MINGW32 /c/users/Björn
-$ ls
-Adobe Encore_AME.pref
-AppData/
-Application Data@
-Contacts/
-Cookies@
-Desktop/
-Documents/
-Downloads/
-Dropbox/
-Favorites/
-Git213/
-GitHub/
-LibraryBNJ.xml
-Links/
-Local Settings@
-Music/
-My Documents/
-NetHood@
-NTUSER.DAT
-ntuser.dat.LOG1
-ntuser.dat.LOG2
-NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf
-NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms
-NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms
-ntuser.ini
-ntuser.pol
-OneDrive/
-Phone Browser/
-Pictures/
-PrintHood@
-Recent@
-Så får du kollegerna att ge allt på jobbet.pdf
-Saved Games/
-Searches/
-SendTo@
-Start Menu@
-Temp/
-Templates@
-Tracing/
-Videos/
-Virtual Machines/
-
 Björn@HP-SLIM MINGW32 /c/users/Björn
 $ cd github
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github
-$ ls
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github
-$ git init
-Initialized empty Git repository in C:/Users/Björn/GitHub/.git/
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github (master)
-$ help
-GNU bash, version 4.3.42(2)-release (i686-pc-msys)
-These shell commands are defined internally.  Type `help' to see this list.
-Type `help name' to find out more about the function `name'.
-Use `info bash' to find out more about the shell in general.
-Use `man -k' or `info' to find out more about commands not in this list.
 
-A star (*) next to a name means that the command is disabled.
 
- job_spec [&]                            history [-c] [-d offset] [n] or hist>
- (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
- . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
- :                                       kill [-s sigspec | -n signum | -sigs>
- [ arg... ]                              let arg [arg ...]
- [[ expression ]]                        local [option] name[=value] ...
- alias [-p] [name[=value] ... ]          logout [n]
- bg [job_spec ...]                       mapfile [-n count] [-O origin] [-s c>
- bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
- break [n]                               printf [-v var] format [arguments]
- builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
- caller [expr]                           pwd [-LPW]
- case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
- cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
- command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
- compgen [-abcdefgjksuv] [-o option]  >  return [n]
- complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
- compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
- continue [n]                            shift [n]
- coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
- declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
- dirs [-clpv] [+N] [-N]                  suspend [-f]
- disown [-h] [-ar] [jobspec ...]         test [expr]
- echo [-neE] [arg ...]                   time [-p] pipeline
- enable [-a] [-dnps] [-f filename] [na>  times
- eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
- exec [-cl] [-a name] [command [argume>  true
- exit [n]                                type [-afptP] name [name ...]
- export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilrtux] [-p] name[=va>
- false                                   ulimit [-SHabcdefilmnpqrstuvxT] [lim>
- fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
- fg [job_spec]                           unalias [-a] name [name ...]
- for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
- for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
- function name { COMMANDS ; } or name >  variables - Names and meanings of so>
- getopts optstring name [arg]            wait [-n] [id ...]
- hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
- help [-dms] [pattern ...]               { COMMANDS ; }
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github (master)
-$ help init
-bash: help: no help topics match `init'.  Try `help help' or `man -k init' or `info init'.
-
-Björn@HP-SLIM MINGW32 /c/users/Björn/github (master)
-$ cd /GitS
-bash: cd: /GitS: No such file or directory
-
-Björn@HP-SLIM MINGW32 /c/users/Björn/github (master)
-$ ls
-GitS/
+INIT
+=====
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github (master)
 $ cd GitS
@@ -232,6 +28,11 @@ Initialized empty Git repository in C:/Users/Björn/GitHub/GitS/.git/
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ touch Text1.txt
 
+
+
+
+COMMIT requieres add firt
+======
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git status
 On branch master
@@ -244,6 +45,10 @@ Untracked files:
         Text1.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+
+ADD
+====
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git add Text1.txt
@@ -275,12 +80,8 @@ Omit --global to set the identity only in this repository.
 
 fatal: unable to auto-detect email address (got 'Bj¦rn@HP-SLIM.(none)')
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
-$ git cofig --global user.email "bjorn.k.j@hotmail.com"
-git: 'cofig' is not a git command. See 'git --help'.
-
-Did you mean this?
-        config
+CONFIG WHO YOU ARE
+====================
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git config --global user.email "bjorn.k.j@hotmail.com"
@@ -288,9 +89,7 @@ $ git config --global user.email "bjorn.k.j@hotmail.com"
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git config --global user.name "bjorn76"
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
-$ status
-bash: status: command not found
+
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git status
@@ -304,7 +103,11 @@ Changes to be committed:
         new file:   Text1.txt
 
 
-Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
+
+		
+GIT REMOTE
+===========		
+		Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git remote add origin https://github.com/bjorn76/GitS.git
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
