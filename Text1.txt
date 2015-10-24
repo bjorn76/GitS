@@ -103,9 +103,9 @@ Changes to be committed:
         new file:   Text1.txt
 
 
-
+ 
 		
-GIT REMOTE
+GIT REMOTE "git remote add origin https://github.com/bjorn76/VS.git"
 ===========		
 		Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git remote add origin https://github.com/bjorn76/GitS.git
@@ -116,7 +116,7 @@ Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $ git remote -v
-origin  https://github.com/bjorn76/GitS.git (fetch)
+origin  https://github.com/bjorn76/GitS.git (fetch) he
 origin  https://github.com/bjorn76/GitS.git (push)
 
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
