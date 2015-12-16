@@ -123,3 +123,9 @@ origin  https://github.com/bjorn76/GitS.git (push)
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $
 
+ssh://[Git users]@[Your Synology server's IP address or hostname]/[Git repository path]
+
+ssh://gituser@192.168.0.88/volume1/git/Repos/.git
+
+
+
