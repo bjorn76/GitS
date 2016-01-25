@@ -122,3 +122,6 @@ origin  https://github.com/bjorn76/GitS.git (push)
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $
 
+
+
+This line was added 2016-01-25
