@@ -1,4 +1,5 @@
-
+Tex1.txt - git bash text to look up
+===================================
 Björn@HP-SLIM MINGW32 ~
 $ pwd
 /c/Users/Björn
@@ -122,6 +123,15 @@ origin  https://github.com/bjorn76/GitS.git (push)
 Björn@HP-SLIM MINGW32 /c/users/Björn/github/GitS (master)
 $
 
+<<<<<<< HEAD
 
 
 This line was added 2016-01-25
+=======
+ssh://[Git users]@[Your Synology server's IP address or hostname]/[Git repository path]
+
+ssh://gituser@192.168.0.88/volume1/git/Repos/.git
+
+
+
+>>>>>>> 7dd2cb3c4758e127daa73b17c38b90b130730980
